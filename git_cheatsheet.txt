@@ -1,0 +1,14 @@
+git --version
+git config --global user.name "JAngel24"
+git config --global user.email "j.angel.s.cortes@hotmail.com"
+git config --list
+Puedes ignorar archivos o directorios para que no se suban al repositorio.
+Agregalos así: archivo.txt & /directorio 
+
+git add -A //agrega todos a la stagging area (Changes to be commited-Green)
+git add .show_this_one.txt //Agrega solo ese archivo a la zona.
+git reset .show_this_one.txt//Quita todos los archivos de staging area
+git reset //Remueve todos de la staging area
+
+
+
