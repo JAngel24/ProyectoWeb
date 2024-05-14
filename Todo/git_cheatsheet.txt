@@ -10,5 +10,9 @@ git add .show_this_one.txt //Agrega solo ese archivo a la zona.
 git reset .show_this_one.txt//Quita todos los archivos de staging area
 git reset //Remueve todos de la staging area
 
+git commit -m "Mensaje de commit" //Hace el commit
+git log //Hashes of commits, to check if they went ok
+
+
 
 
